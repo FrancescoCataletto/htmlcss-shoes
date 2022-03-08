@@ -49,20 +49,36 @@ header{
     position: relative;
 }
 
-.card.one{
-    background-color: red;
-}
-
 .shoe-box{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card.one{
+    background-color: red;
 }
 
 .card.one .shoe-box{
-    font-size: 80px;
-    text-align: center;
     color: rgb(255, 255, 0);
-    text-transform: uppercase;
+}
+
+.card.two{
+    background-color: rgb(0, 128, 0);
+}
+
+.card.two .shoe-box{
+    color: rgb(255, 255, 0);
+}
+
+.card.three{
+    background-color: rgb(255, 255, 0);
+}
+
+.card.three .shoe-box{
+    color: green;
 }
